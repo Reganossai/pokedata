@@ -2,11 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBuilding} from "@fortawesome/free-regular-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import logo from '../logo.jpg';
+
 const Home = () => {
     return(
         <div className="body-container">
             <div className="logo">
-                <img src="https://www.pokedata.io/static/media/pd_logo_color_black.782acf0a.png" alt="logo"/>
+                <img src={logo} alt="logo"/>
             </div>
             <div className="icons">
                 <FontAwesomeIcon icon={faEnvelope} className="iconic"/>
