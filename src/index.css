@@ -1,13 +1,138 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("download.jpg");
+  background-size: stretch;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo img{
+  width: 170px;
+  margin:  80px 0px 0px 130px;
+}
+
+.icons{
+  margin: 100px 0px 0px 130px;
+}
+
+.iconic{
+  color:darkred; 
+  font-size: 50px;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  margin: 0px 40px 0px  0px;
+  padding: 10px 0px 10px 0px ;
+}
+
+.body-text{
+  margin: 0px 0px 0px 130px;
+}
+
+.body-text h4{
+  font-size: 20px;
+
+}
+
+.we-provide{
+  margin: 30px 0px 0px 0px;
+  color: crimson;
+  font-size: 40px;
+}
+
+.prices-on{
+  font-size: 35px;
+  margin: 5px 0px;
+}
+
+.products{
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+.images{
+  position: absolute;
+  left: 790px;
+  top: 180px;
+}
+
+.images img{
+  width: 370px;
+}
+
+.button-div{
+  margin: 50px 0px 0px 130px;
+} 
+
+.button-div button{
+  margin: 0px 5px 0px 0px ;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+ 
+}
+
+.search{
+  margin: 50px 0px 0px 130px;
+  width:600px;
+}
+
+.search input[type=text]{
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+  border-color: black;
+}
+
+ ::placeholder{
+  color: black;
+  font-size: 17px;
+}
+
+.search-btn{
+  border-style:ridge;
+  border-color: black;
+  position: absolute;
+  padding: 8px 10px 8px 10px ;
+  color: black;
+  border-radius: 5px;
+}
+
+hr{
+  margin-top: 70px;
+}
+
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.first-col{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 130px;
+}
+
+.second-col{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 600px;
+}
+
+.third-col{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 200px;
+}
+
+.first-col h4{
+  color: crimson;
+}
+
+.second-col h4{
+  color: crimson;
+}
+
+.third-col h4{
+  color: crimson;
 }
