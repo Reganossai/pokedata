@@ -27,9 +27,9 @@ const Home = () => {
                     </div>
 
                     <div className="button-div">
-<button type="button"><h3>Sets</h3></button>
-<button type="button"><h3>Sealed Products</h3></button>
-<button type="button"><h3>Portfolio Tracker</h3></button>
+<button type="button"><h3 className="cls">Sets</h3></button>
+<button type="button"><h3 className="cls">Sealed Products</h3></button>
+<button type="button"><h3 className="cls">Portfolio Tracker</h3></button>
                     </div>
 
                     <div className="search">
